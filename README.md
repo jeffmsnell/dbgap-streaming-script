@@ -3,7 +3,7 @@ Python 3 script to pull a stream of large files from one remote server to anothe
 1. the remote servers cannot directly communicate with one another  
 2. the cumulative size of files is greater than local storage  
 
-
+## Script usage:  
 User should define initial variables (remote and local dirs, hostname, username, passwords, etc), create list of files in remote directory, and create public / private keys (link below).    
 
 1. Paramiko transfers files from user defined remote to local directory 
@@ -13,11 +13,13 @@ b. Aspera script executed
 3. Local file and script are deleted  
 4. A few housekeeping items are performed 
 
+## dbGaP instructions:  
 Additionally, it will be useful to review the dbgap instructions -- the important parts abbreviated here:
 
 Instructions:  
 https://www.ncbi.nlm.nih.gov/sra/docs/submitdbgap/  
 
+## Abbreviated instructions:  
 Private key: ```~/mykey```  
 Public key: ```~/mykey.pub```  
 
